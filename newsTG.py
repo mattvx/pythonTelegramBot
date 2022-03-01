@@ -2,9 +2,6 @@ import feedparser, telegram, time
 
 newsToken = "PASTE_BOT_TOKEN_HERE"
 
-NewsFeed = feedparser.parse("https://www.ansa.it/sito/notizie/topnews/topnews_rss.xml")
-entry = NewsFeed.entries
-
 bot = telegram.Bot(token=newsToken)
 
 while True:
