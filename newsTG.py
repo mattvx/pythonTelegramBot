@@ -30,6 +30,6 @@ while True:
             newsTitle = i.title + "\n"
             newsBody = i.summary + "\n\n"
             news1 = newsTitle + "\n" + newsBody
-            status = bot.send_message(chat_id="@testtest1784", text=news1, parse_mode=telegram.ParseMode.HTML)
+            status = bot.send_message(chat_id="@CHAT_WHERE_TO_POST", text=news1, parse_mode=telegram.ParseMode.HTML)
         
     print("\n\n")
